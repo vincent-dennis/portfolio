@@ -1,0 +1,144 @@
+body {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    color: #1b1b1b;
+    background-color: #efefef;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#title {
+    font-size: 3em;
+    margin: 4rem 0 0 0;
+}
+
+figure {
+    background-color: #fefefe;
+    margin: 2rem 0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+#img-caption {
+    font-size: small;
+}
+
+/* TIMELINE */
+.timeline {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.age {
+    font-weight: bold;
+}
+
+.content {
+    max-width: 500px;
+    padding: 1em 2em;
+    margin-left: 3em;
+    background-color: #fefefe;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    top: calc(50% - 1.5em);
+    left: -1.6em;
+    border-top: 2px solid #1b1b1b;
+    border-left: 2px solid #1b1b1b;
+    border-right: 2px solid #1b1b1b;
+    border-bottom: 2px solid transparent;
+    border-radius: 3em;
+    z-index: 3;
+    transform: rotate(-45deg);
+}
+
+.content span::before {
+    content: '';
+    position: absolute;
+    width: 0.8em;
+    height: 0.8em;
+    top: calc(50% - 0.5em);
+    left: 0.6em;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid #1b1b1b;
+    border-radius: 3em;
+    z-index: 2;
+    transform: rotate(-75deg);
+}
+
+.content p {
+    margin-left: 1.2em;
+}
+
+.content p::before {
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    top: calc(50% - 0.5em);
+    left: 1em;
+    background: #efefef;
+    box-shadow: inset 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 14px;
+    }
+
+    .content span::before {
+        left: 9px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content::before {
+        left: calc(-1.6em - 1px);
+    }
+
+    .content span::before {
+        left: 8px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        font-size: 13px;
+    }
+
+    .content span::before {
+        left: 7px;
+    }
+}

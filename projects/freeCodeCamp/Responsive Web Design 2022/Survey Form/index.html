@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Gacha Games 2022</h1>
+        <p id="description">Tell us your opinions on popular mobile gacha games in 2022</p>
+    </header>
+    
+    <form action="" method="post" id="survey-form">
+        <!-- PERSONAL DATA -->
+        <fieldset>
+            <legend>About yourself:</legend>
+            <div class="input-group about-section">
+                <label for="name" id="name-label">Username</label>
+                <input class="input-field" type="text" name="name" id="name" required placeholder="xyz#123">
+                <label for="email" id="email-label">Email</label>
+                <input class="input-field" type="email" name="email" id="email" required placeholder="bob@mail.com">
+                <label for="age" id="number-label">Age</label>
+                <input class="input-field" type="number" name="age" id="number" min="12" max="120" required placeholder="18">
+            </div>
+        </fieldset>
+
+        <!-- SURVEY DATA -->
+        <fieldset>
+            <div class="input-group">
+                <label>Games played: (check all that apply)</label><br>
+                <label>
+                    <input class="input-checkbox" name="games-played" type="checkbox" value="e7"> Epic 7</label
+                ><br>
+                <label>
+                    <input class="input-checkbox" name="games-played" type="checkbox" value="sw"> Summoners War</label
+                ><br>
+                <label>
+                    <input class="input-checkbox" name="games-played" type="checkbox" value="al"> Azur Lane</label
+                ><br>
+                <label>
+                    <input class="input-checkbox" name="games-played" type="checkbox" value="fgo"> Fate: Grand Order</label
+                ><br>
+                <label>
+                    <input class="input-checkbox" name="games-played" type="checkbox" value="gi"> Genshin Impact</label
+                ><br>
+                <label>
+                    <input class="input-checkbox" name="games-played" type="checkbox" value="pgr"> Punishing: Gray Raven</label
+                ><br>
+                <label>
+                    <input class="input-checkbox" name="games-played" type="checkbox" value="ag"> Artery Gear</label
+                ><br>
+                <label>
+                    <input class="input-checkbox" name="games-played" type="checkbox" value="ark"> Arknights</label
+                ><br>
+            </div>
+            
+            <div class="input-group">
+                <label for="money-spent">Money spent on gacha games thus far:</label>
+                <select id="dropdown" name="money-spent" class="input-select">
+                    <option disabled selected value>Select a range</option>
+                    <option value="100">$0 - $100</option>
+                    <option value="500">$101 - $500</option>
+                    <option value="1000">$501 - $1000</option>
+                    <option value="more">$1000+</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Are you willing to spend more money on gacha games in the future?</label><br>
+                <label>
+                    <input name="spend-more" value="definitely" type="radio" class="input-radio" checked>Definitely</label
+                ><br>
+                <label>
+                    <input name="spend-more" value="maybe" type="radio" class="input-radio">Maybe?</label
+                ><br>
+                <label>
+                    <input name="spend-more" value="nope" type="radio" class="input-radio">Nope</label
+                ><br>
+            </div>
+
+            <div class="input-group">
+                <label for="opinion">What is your stand in general on mobile gacha games?</label><br>
+                <textarea name="opinion" rows="3"></textarea>
+            </div>
+
+            <button id="submit" type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
