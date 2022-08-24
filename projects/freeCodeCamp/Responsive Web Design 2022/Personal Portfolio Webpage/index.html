@@ -13,28 +13,58 @@
 <body>
     <nav id="navbar">
         <a href="#welcome-section" id="site-logo">Vincent Dennis Judyanto</a>
-        <ul>
+        <ul class="nav-list">
             <li class="nav-item"><a href="#welcome-section">About</a></li>
             <li class="nav-item"><a href="#projects">Work</a></li>
             <li class="nav-item"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <section id="welcome-section">
-        <h1 class="main-heading">Call me Vincent</h1>
-        <h2 class="main-subheading">Tech Enthusiast</h2>
-        <p>Comp Eng. student in <h3 class="country">Germany</h3> from <h3 class="country">Indonesia</h3></p>
+        <div class="inner-welcome">
+            <h1 class="main-heading">Call me Vincent</h1>
+            <hr>
+            <h2>Tech Enthusiast</h2>
+            <div class="main-desc">
+                <p>Comp. Eng. student in </p><h3 class="country ger">Germany</h3>
+                <p class="resp-newline"> from </p><h3 class="country ind">Indonesia</h3>
+            </div>
+        </div>
     </section>
     <section id="projects">
-        <div class="project-tile"><a href="https://github.com/vincent-dennis">Survey</a></div>
-        <div class="project-tile"><a href="https://github.com/vincent-dennis">Albert Einstein Biography</a></div>
-        <div class="project-tile"><a href="https://github.com/vincent-dennis">HTML Basics Documentation</a></div>
-        <div class="project-tile"><a href="https://github.com/vincent-dennis">Macbook Landing Page</a></div>
+        <h2 class="projects-heading">Projects</h2>
+        <hr>
+        <div class="projects-container">
+            <div class="project-tile project-1">
+                <div class="project-desc">
+                    <a class="project-link" href="https://github.com/vincent-dennis/portfolio/tree/main/projects/freeCodeCamp/Responsive%20Web%20Design%202022/Survey%20Form" target="_blank">
+                        Survey</a>
+                </div>
+            </div>
+            <div class="project-tile project-2">
+                <div class="project-desc">
+                    <a class="project-link" href="https://github.com/vincent-dennis/portfolio/tree/main/projects/freeCodeCamp/Responsive%20Web%20Design%202022/Tribute%20Page" target="_blank">
+                        Albert Einstein Biography</a>
+                </div>
+            </div>
+            <div class="project-tile project-3">
+                <div class="project-desc">
+                    <a class="project-link" href="https://github.com/vincent-dennis/portfolio/tree/main/projects/freeCodeCamp/Responsive%20Web%20Design%202022/Technical%20Documentation%20Page" target="_blank">
+                        HTML Basics Documentation</a>
+                </div>
+            </div>
+            <div class="project-tile project-4">
+                <div class="project-desc">
+                    <a class="project-link" href="https://github.com/vincent-dennis/portfolio/tree/main/projects/freeCodeCamp/Responsive%20Web%20Design%202022/Technical%20Documentation%20Page" target="_blank">
+                        Macbook Landing Page</a>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="contact">
-        <h1>Let's connect!</h1>
-        <h2 class="profile-link"><a href="https://github.com/vincent-dennis">GitHub</a></h2>
-        <h2 class="profile-link"><a href="https://www.freecodecamp.org/vincent_dj">freeCodeCamp</a></h2>
-        <h2 class="profile-link"><a href="mailto:vincentdennis.j@gmail.com">Email</a></h2>
+        <h1 class="contact-heading">Let's connect!</h1>
+        <h2><a id="profile-link" href="https://github.com/vincent-dennis" target="_blank">GitHub</a></h2>
+        <h2><a href="https://www.freecodecamp.org/vincent_dj" target="_blank">freeCodeCamp</a></h2>
+        <h2><a href="mailto:vincentdennis.j@gmail.com" target="_blank">Email</a></h2>
     </section>
 </body>
 </html>
