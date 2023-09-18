@@ -6,7 +6,7 @@ SpoTube is a chrome extension that can quickly generate a YouTube playlist out o
 
 If you want to try SpoTube:
 
-1. Download the SpoTube .zip file
+1. Download the SpoTube.zip file
 2. Unzip the file into a local folder
 3. Open Google Chrome and go to chrome://extensions
 4. On the top right corner, toggle on "Developer mode"
