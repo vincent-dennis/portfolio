@@ -33,4 +33,4 @@ The extension does NOT store any user sensitive data.
 
 ## Limitations
 
-The extension uses both Spotify and YouTube Data API to function, and since YouTube Data API can only be used with a Cost Quota system, the extension can only transfer up to 66 songs per day. This extension was made as a learning project, and serves only as a proof of concept. For troubleshooting or inquiries email [me](mailto:vincentdennis.j@gmail.com "email").
+The extension uses both Spotify and YouTube Data API to function, and since YouTube Data API can only be used with a Cost Quota system, the extension can only transfer up to 66 songs per day. This extension was made as a learning project, and serves only as a proof of concept. For troubleshooting or inquiries email vincentdennis.j@gmail.com
