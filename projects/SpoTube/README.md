@@ -14,7 +14,7 @@ If you want to try SpoTube:
 
 ## Usage
 
-For a demonstration watch the video "SpoTube demo"
+For a demonstration watch the video "SpoTube demo" https://youtu.be/0LmuuYStDYE OR download the video.
 
 1. Open a Spotify playlist that you would like to transfer to YouTube
 2. Click on the extension icon, and when prompted, sign into both your Spotify account and Google account that is associated with your YouTube account.
