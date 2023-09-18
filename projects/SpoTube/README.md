@@ -11,6 +11,7 @@ If you want to try SpoTube:
 3. Open Google Chrome and go to chrome://extensions
 4. On the top right corner, toggle on "Developer mode"
 5. Click on "Load Unpacked", and choose the SpoTube folder
+6. Send an email to vincentdennis.j@gmail.com containing your google account email address with the subject "Request to try SpoTube" (since the extension is still in development mode, and each user have to be added manually to the permission list)
 
 ## Usage
 
