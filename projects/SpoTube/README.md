@@ -22,6 +22,14 @@ For a demonstration watch the video "SpoTube demo" https://youtu.be/0LmuuYStDYE 
 
 The extension does NOT store any user sensitive data.
 
+## How it works
+
+1. User grants access to their Spotify playlist and YouTube through OAuth.
+2. The extension obtains the playlist name and the songs' titles and artists.
+3. A private playlist of the same name is generated on the user's YouTube account.
+4. The extension executes a YouTube search for every song using its title and artists, takes the first video result and insert it into the created playlist.
+5. The playlist is opened in a new tab.
+
 ## Limitations
 
 The extension uses both Spotify and YouTube Data API to function, and since YouTube Data API can only be used with a Cost Quota system, the extension can only transfer up to 66 songs per day. This extension was made as a learning project, and serves only as a proof of concept.
