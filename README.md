@@ -1,4 +1,5 @@
 # Portfolio
 Vincent Dennis Judyanto's Portfolio
 
-created - 8.20.2022
+## Contact
+Email: vincentdennis.j@gmail.com
