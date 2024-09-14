@@ -8,4 +8,4 @@ updated: 2023
 
 Email: vincentdennis.j@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/vincent-dennis-judyanto-137b30201
+LinkedIn: https://www.linkedin.com/in/vincent-dennis-judyanto
