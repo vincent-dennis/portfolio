@@ -2,7 +2,7 @@
 
 Vincent Dennis Judyanto's Portfolio
 
-updated: 2023
+updated: March 2025
 
 ## Contact
 
